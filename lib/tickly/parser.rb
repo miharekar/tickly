@@ -54,7 +54,7 @@ module Tickly
     
     TERMINATORS = ["\n", ";"]
     ESC = 92.chr # Backslash (\)
-    QUOTES = %w( " ' )
+    QUOTES = []
     
     # Package the expressions, stack and buffer.
     # We use a special flag to tell us whether we need multuple expressions.
